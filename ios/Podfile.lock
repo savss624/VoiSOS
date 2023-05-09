@@ -1,0 +1,46 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_voice_processor (1.0.6):
+    - Flutter
+  - ios-voice-processor (1.0.3)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - Porcupine-iOS (2.1.2):
+    - ios-voice-processor (~> 1.0.2)
+  - porcupine_flutter (2.1.6):
+    - Flutter
+    - Porcupine-iOS (~> 2.1.2)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_voice_processor (from `.symlinks/plugins/flutter_voice_processor/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
+  - porcupine_flutter (from `.symlinks/plugins/porcupine_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ios-voice-processor
+    - Porcupine-iOS
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_voice_processor:
+    :path: ".symlinks/plugins/flutter_voice_processor/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/ios"
+  porcupine_flutter:
+    :path: ".symlinks/plugins/porcupine_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_voice_processor: afb59b604d99397a1ccf15c935ac8f2c2327f09f
+  ios-voice-processor: 65b25a8db69ea25ffba0eeef37bae71a982f34cc
+  path_provider_foundation: 37748e03f12783f9de2cb2c4eadfaa25fe6d4852
+  Porcupine-iOS: 884f40edadf4b72fac6fae768d3247bdb48841f7
+  porcupine_flutter: b1f28f08b9da19bcba7adb38e6231b55ebdd0558
+
+PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+
+COCOAPODS: 1.11.3
